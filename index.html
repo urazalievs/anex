@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anex</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/millanova" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./splide-4.1.3/dist/css/splide.min.css">
+
+    <!-- Шрифт Chandra  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./splide-4.1.3/dist/css/themes/splide-default.min.css">
+    <!-- Ссылка Свипер -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <nav>
+        <section class="navigation flex">
+            <img src="./img/logo (1) 1.png" alt="logo">
+            <ul class="nav_ul flex">
+                <li class="nav_li li_noneMobile"><a href="#">Подбор тура</a> </li>
+                <li class="nav_li li_noneMobile"><a style="color: red;" href="#">Горящие туры</a> </li>
+                <li class="nav_li li_none"><a href="#"> Страны</a></li>
+                <li class="nav_li li_none"><a href="#"> отели</a></li>
+            </ul>
+            <button class="nav_btn li_noneMobile">оставить заявку</button>
+            <div class="navIcon flex">
+                <div class="nav_icon flex li_noneMobile">
+                    <a href="#"><img src="./img/call_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="telephone"></a>
+                    <a href="#"><img src="./img/location_on_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="location"></a>
+                </div>
+                <div class="line1 li_noneMobile"></div>
+                <button class="menu">
+                    <span class="menu_span"></span>
+                    <span class="menu_span"></span>
+                    <span class="menu_span"></span>
+                </button>
+            </div>
+        </section>
+    </nav>
+
+
+    <header>
+        <div class="choice_cont">
+            <section class="choice">
+                <h1>путешествия мечты</h1>
+                <span>выбери свою</span>
+                <img class="choiceImg" src="./img/линия.png" alt="foto">
+                <div class="choice_inp">
+                    <input type="text" placeholder="Откуда">
+                    <input type="text" placeholder="Куду">
+                    <input type="text" placeholder="Вылет">
+                    <div class="choice_data flex">
+                        <input type="date" placeholder="Откуда" value="vkjsvkjv">
+                        <input type="number" placeholder="2 + 0">
+                    </div>
+                    <div class="choice_btn"> 
+                        <button class="allBtn">подобрать</button>
+                        <img src="./img/south_east_24dp_FFF_FILL0_wght400_GRAD0_opsz24.svg" alt="foto">
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+        <section class="slide">
+            <div class="slideText">
+                <h2 class="allTitle">горящие туры</h2>
+                <span class="allSpan">Поймайте момент</span>
+                <h2 class="millanovaText">Tours</h2>
+            </div>
+            <section id="splideOne" class="splide" aria-label="Простой пример HTML Splide">
+                <div class="splide__track">
+                      <ul class="splide__list gap">
+                          <li class="splide__slide bgItalia">
+                            <a class="splideCard" href="#">
+                                <div class="day">
+                                    <span>9 дней</span>
+                                    <span>от 25 000 ₽</span>
+                                </div>
+                                <div class="country">
+                                    <p>Италия <span></span> Венеция</p>
+                                    <p>12-18 октября</p>
+                                    <div class="coutryImg flex">
+                                        <p>узнать подробнее </p>
+                                        <img src="./img/линия (2).png" alt="foto">
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="splide__slide bgBecir">
+                            <a class="splideCard" href="#">
+                                <div class="day">
+                                    <span>14 дней</span>
+                                    <span>от 95 000 ₽</span>
+                                </div>
+                                <div class="country">
+                                    <p>Tурция     <span></span> Каппадокия </p>
+                                    <p>16-30 сентября</p>
+                                    <div class="coutryImg flex">
+                                        <p>узнать подробнее </p>
+                                        <img src="./img/линия (2).png" alt="foto">
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="splide__slide bgFranc">
+                            <a class="splideCard" href="#">
+                                <div class="day">
+                                    <span>5 дней</span>
+                                    <span>от 80 000 ₽</span>
+                                </div>
+                                <div class="country">
+                                    <p>Италия <span></span> рим</p>
+                                    <p>10-15 ноября</p>
+                                    <div class="coutryImg flex">
+                                        <p>узнать подробнее </p>
+                                        <img src="./img/линия (2).png" alt="foto">
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="splide__slide bgDarcey">
+                            <a class="splideCard" href="#">
+                                <div class="day">
+                                    <span>9 дней</span>
+                                    <span>от 25 000 ₽</span>
+                                </div>
+                                <div class="country">
+                                    <p>оаэ      <span></span> дубай</p>
+                                    <p>12-18 октября</p>
+                                    <div class="coutryImg flex">
+                                        <p>узнать подробнее </p>
+                                        <img src="./img/линия (2).png" alt="foto">
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="splide__slide bgDaniel">
+                            <a class="splideCard" href="#">
+                                <div class="day">
+                                    <span>9 дней</span>
+                                    <span>от 25 000 ₽</span>
+                                </div>
+                                <div class="country">
+                                    <p>италия    <span></span>  флоренция</p>
+                                    <p>12-18 октября</p>
+                                    <div class="coutryImg flex">
+                                        <p>узнать подробнее </p>
+                                        <img src="./img/линия (2).png" alt="foto">
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="splide__slide bgIII">
+                            <a class="splideCard" href="#">
+                                <div class="day">
+                                    <span>9 дней</span>
+                                    <span>от 25 000 ₽</span>
+                                </div>
+                                <div class="country">
+                                    <p>Италия <span></span> Венеция</p>
+                                    <p>12-18 октября</p>
+                                    <div class="coutryImg flex">
+                                        <p>узнать подробнее </p>
+                                        <img src="./img/линия (2).png" alt="foto">
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="splide__slide bgItalia">
+                            <a class="splideCard" href="#">
+                                <div class="day">
+                                    <span>9 дней</span>
+                                    <span>от 25 000 ₽</span>
+                                </div>
+                                <div class="country">
+                                    <p>Италия <span></span> Венеция</p>
+                                    <p>12-18 октября</p>
+                                    <div class="coutryImg flex">
+                                        <p>узнать подробнее </p>
+                                        <img src="./img/линия (2).png" alt="foto">
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="splide__slide bgBecir">
+                            <a class="splideCard" href="#">
+                                <div class="day">
+                                    <span>9 дней</span>
+                                    <span>от 25 000 ₽</span>
+                                </div>
+                                <div class="country">
+                                    <p>Италия <span></span> Венеция</p>
+                                    <p>12-18 октября</p>
+                                    <div class="coutryImg flex">
+                                        <p>узнать подробнее </p>
+                                        <img src="./img/линия (2).png" alt="foto">
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="splide__slide bgFranc">
+                            <a class="splideCard" href="#">
+                                <div class="day">
+                                    <span>9 дней</span>
+                                    <span>от 25 000 ₽</span>
+                                </div>
+                                <div class="country">
+                                    <p>Италия <span></span> Венеция</p>
+                                    <p>12-18 октября</p>
+                                    <div class="coutryImg flex">
+                                        <p>узнать подробнее </p>
+                                        <img src="./img/линия (2).png" alt="foto">
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="splide__slide bgDarcey">
+                            <a class="splideCard" href="#">
+                                <div class="day">
+                                    <span>9 дней</span>
+                                    <span>от 25 000 ₽</span>
+                                </div>
+                                <div class="country">
+                                    <p>Италия <span></span> Венеция</p>
+                                    <p>12-18 октября</p>
+                                    <div class="coutryImg flex">
+                                        <p>узнать подробнее </p>
+                                        <img src="./img/линия (2).png" alt="foto">
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="splide__slide bgDaniel">
+                            <a class="splideCard" href="#">
+                                <div class="day">
+                                    <span>9 дней</span>
+                                    <span>от 25 000 ₽</span>
+                                </div>
+                                <div class="country">
+                                    <p>Италия <span></span> Венеция</p>
+                                    <p>12-18 октября</p>
+                                    <div class="coutryImg flex">
+                                        <p>узнать подробнее </p>
+                                        <img src="./img/линия (2).png" alt="foto">
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="splide__slide bgIII">
+                            <a class="splideCard" href="#">
+                                <div class="day">
+                                    <span>9 дней</span>
+                                    <span>от 25 000 ₽</span>
+                                </div>
+                                <div class="country">
+                                    <p>Италия <span></span> Венеция</p>
+                                    <p>12-18 октября</p>
+                                    <div class="coutryImg flex">
+                                        <p>узнать подробнее </p>
+                                        <img src="./img/линия (2).png" alt="foto">
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                      </ul>
+                </div>
+            </section>
+        </section>
+
+        <div class="hotel">
+            <div class="hotelText">
+                <h2 class="millanovaText">Hotels</h2>
+                <h2 class="allTitle">популярные отели</h2>
+                <span class="allSpan">уют и роскошь в лучших отелях мира</span>
+            </div>
+            <div class="swiper_cont">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide bgOsward">
+                        <a class="hotelCard flex" href="#">
+                            <div class="hotelStatus">
+                                <span>5</span>
+                                <img src="./img/star.png" alt="star">
+                            </div>
+                            <div class="hotelName">
+                                <span>Villa Flori Como</span>
+                                <div class="hotelLine flex">
+                                    <p>узнать подробнее </p>
+                                    <img src="./img/линия (2).png" alt="foto">  
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide bgEdvin">
+                        <a class="hotelCard flex" href="#">
+                            <div class="hotelStatus">
+                                <span>4.8</span>
+                                <img src="./img/star.png" alt="star">
+                            </div>
+                            <div class="hotelName">
+                                <span>Ikos Dassia</span>
+                                <div class="hotelLine flex">
+                                    <p>узнать подробнее </p>
+                                    <img src="./img/линия (2).png" alt="foto">  
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide bgManuel">
+                        <a class="hotelCard flex" href="#">
+                            <div class="hotelStatus">
+                                <span>4.9</span>
+                                <img src="./img/star.png" alt="star">
+                            </div>
+                            <div class="hotelName">
+                                <span>Ritz-Carlton</span>
+                                <div class="hotelLine flex ">
+                                    <p>узнать подробнее </p>
+                                    <img src="./img/линия (2).png" alt="foto">  
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide bgOsward">
+                        <a class="hotelCard flex" href="#">
+                            <div class="hotelStatus">
+                                <span>5</span>
+                                <img src="./img/star.png" alt="star">
+                            </div>
+                            <div class="hotelName">
+                                <span>Villa Flori Como</span>
+                                <div class="hotelLine flex">
+                                    <p>узнать подробнее </p>
+                                    <img src="./img/линия (2).png" alt="foto">  
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide bgEdvin">
+                        <a class="hotelCard flex" href="#">
+                            <div class="hotelStatus">
+                                <span>4.8</span>
+                                <img src="./img/star.png" alt="star">
+                            </div>
+                            <div class="hotelName">
+                                <span>Ikos Dassia</span>
+                                <div class="hotelLine flex">
+                                    <p>узнать подробнее </p>
+                                    <img src="./img/линия (2).png" alt="foto">  
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide bgManuel">
+                        <a class="hotelCard flex" href="#">
+                            <div class="hotelStatus">
+                                <span>4.9</span>
+                                <img src="./img/star.png" alt="star">
+                            </div>
+                            <div class="hotelName">
+                                <span>Ritz-Carlton</span>
+                                <div class="hotelLine flex ">
+                                    <p>узнать подробнее </p>
+                                    <img src="./img/линия (2).png" alt="foto">  
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            
+            <div class="hotelMobile">
+                <div class="hotelMobile-container">
+                    <div class="">
+                        <a class="hotelCard flex bgManuel" href="#">
+                            <div class="hotelStatus">
+                                <span>4.9</span>
+                                <img src="./img/star.png" alt="star">
+                            </div>
+                            <div class="hotelName">
+                                <span>Ritz-Carlton</span>
+                                <div class="hotelLine flex ">
+                                    <p>узнать подробнее </p>
+                                    <img src="./img/линия (2).png" alt="foto">  
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="">
+                        <a class="hotelCard flex bgOsward" href="#">
+                            <div class="hotelStatus">
+                                <span>5</span>
+                                <img src="./img/star.png" alt="star">
+                            </div>
+                            <div class="hotelName">
+                                <span>Villa Flori Como</span>
+                                <div class="hotelLine flex">
+                                    <p>узнать подробнее </p>
+                                    <img src="./img/линия (2).png" alt="foto">  
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="">
+                        <a class="hotelCard flex bgEdvin" href="#">
+                            <div class="hotelStatus">
+                                <span>4.8</span>
+                                <img src="./img/star.png" alt="star">
+                            </div>
+                            <div class="hotelName">
+                                <span>Ikos Dassia</span>
+                                <div class="hotelLine flex">
+                                    <p>узнать подробнее </p>
+                                    <img src="./img/линия (2).png" alt="foto">  
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <button class=" hotelBtn nav_btn">Больше отелей</button>
+            </div>
+        </div>
+
+        <div class="managerContainer">
+            <section class="manager">
+                <div class="managerCard flex">
+                    <h3>не определились с выбором?</h3>
+                    <p>Оставьте свой номер 
+                        и наш специалист поможет 
+                        вам с подбором тура
+                    </p>
+                    <div class="managerInP">
+                        <input type="text" placeholder="Имя">
+                        <input type="number" placeholder="Телефон">
+                    </div>
+                    <div class="managerBtn choice_btn"> 
+                        <button class="allBtn">отправить</button>
+                        <img src="./img/south_east_24dp_FFF_FILL0_wght400_GRAD0_opsz24.svg" alt="foto">
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <div id="review" class="review slide">
+            <div class="hotelText">
+                <h2 class="millanovaText">Reviews</h2>
+                <h2 class="allTitle">отзывы</h2>
+                <span class="allSpan">Впечатления наших путешественников</span>
+            </div>
+            <section id="splideThreee" class="splide" aria-label="Простой пример HTML Splide">
+                <div class="splide__track">
+                      <ul class="splide__list gap">
+                          <li class="splide__slide reviewCard">
+                            <img src="./img/Pariz4.png" alt="foto">
+                            <div class="star-review flex">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                            </div>
+                            <span>Мария С. из Москвы</span>
+                            <span>Летала в Париж 20.07.23 в отель Ritz-Carlton </span>
+                            <p>Невероятное путешествие! <span></span>Спасибо за организацию моей поездки в Париж. Все было просто идеально - от отелей до экскурсий. Не могу дождаться следующего приключения с вашей турфирмой!</p>
+                          </li>
+                          <li class="splide__slide reviewCard">
+                            <img src="./img/angelo3.png" alt="foto">
+                            <div class="star-review">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                            </div>
+                            <span>Александр Г. из Санкт-Петербурга</span>
+                            <span>Летал в Тайланд 10.05.23 в отель The Silver Palm Wellness Resort</span>
+                            <p>Путешествие в Таиланд оказалось невероятным благодаря вашим услугам. <span></span> Профессиональное планирование, отличные рекомендации по местам для посещения и великолепный выбор отелей. Обязательно вернусь к вам снова.</p>
+                          </li>
+                          <li class="splide__slide reviewCard">
+                            <img src="./img/Macs2.png" alt="foto">
+                            <div class="star-review">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                            </div>
+                            <span>Екатерина Л. из Екатеринбурга</span>
+                            <span>Летала на Бали 12.08.23 в отель Hanging Gardens </span>
+                            <p>Спасибо за незабываемый отдых на Бали! Все было под контролем, начиная с бронирования и заканчивая возвращением домой. Отличная коммуникация и внимание к деталям создали идеальное путешествие.</p>
+                          </li>
+                          <li class="splide__slide reviewCard">
+                            <img src="./img/Mask1.png" alt="foto">
+                            <div class="star-review">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                            </div>
+                            <span>Ольга И. из Новосибирска</span>
+                            <span>Летала в Японию 02.08.23 в отели Nishimuraya Honkan и Four Seasons Hotel Kyoto </span>
+                            <p>Ваша турфирма стала моим надежным проводником в мир :) <span></span> После поездки в Японию я почувствовала себя настоящим путешественником. Отличная организация, забота о клиентах и интересные маршруты делают вас лучшими! Большое спасибо!</p>
+                          </li>
+                          <li class="splide__slide reviewCard">
+                            <img src="./img/Pariz4.png" alt="foto">
+                            <div class="star-review">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                            </div>
+                            <span>Мария С. из Москвы</span>
+                            <span>Летала в Париж 20.07.23 в отель Ritz-Carlton </span>
+                            <p>Невероятное путешествие!  <span></span> Спасибо за организацию моей поездки в Париж. Все было просто идеально - от отелей до экскурсий. Не могу дождаться следующего приключения с вашей турфирмой!</p>
+                          </li>
+                          <li class="splide__slide reviewCard">
+                            <img src="./img/angelo3.png" alt="foto">
+                            <div class="star-review">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                            </div>
+                            <span>Александр Г. из Санкт-Петербурга</span>
+                            <span>Летал в Тайланд 10.05.23 в отель The Silver Palm Wellness Resort</span>
+                            <p>Путешествие в Таиланд оказалось невероятным благодаря вашим услугам. <span></span> Профессиональное планирование, отличные рекомендации по местам для посещения и великолепный выбор отелей. Обязательно вернусь к вам снова.</p>
+                          </li>
+                          <li class="splide__slide reviewCard">
+                            <img src="./img/Macs2.png" alt="foto">
+                            <div class="star-review">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                            </div>
+                            <span>Екатерина Л. из Екатеринбурга</span>
+                            <span>Летала на Бали 12.08.23 в отель Hanging Gardens </span>
+                            <p>Спасибо за незабываемый отдых на Бали! Все было под контролем, начиная с бронирования и заканчивая возвращением домой. Отличная коммуникация и внимание к деталям создали идеальное путешествие.</p>
+                          </li>
+                          <li class="splide__slide reviewCard">
+                            <img src="./img/Mask1.png" alt="foto">
+                            <div class="star-review">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                                <img src="./img/stap-orange.png" alt="star">
+                            </div>
+                            <span>Ольга И. из Новосибирска</span>
+                            <span>Летала в Японию 02.08.23 в отели Nishimuraya Honkan и Four Seasons Hotel Kyoto </span>
+                            <p>Ваша турфирма стала моим надежным проводником в мир :) <span></span> После поездки в Японию я почувствовала себя настоящим путешественником. Отличная организация, забота о клиентах и интересные маршруты делают вас лучшими! Большое спасибо!</p>
+                          </li>
+                      </ul>
+                </div>
+            </section>  
+        </div>
+
+        <section id="news" class="news">
+            <div class="slideText">
+                <h2 class="allTitle">новости</h2>
+                <span class="allSpan">события в мире туризма</span>
+                <h2 class="millanovaText">News</h2>
+            </div>
+            <div class="newsGrid">
+                <div class="news1">
+                    <div class="hotelName">
+                        <span>ТОП-10 уникальных и завораживающих мест в ОАЭ</span>
+                        <div class="hotelLine flex">
+                            <p>узнать подробнее </p>
+                            <img src="./img/линия (2).png" alt="foto">  
+                        </div>
+                    </div>
+                </div>
+                <div class="news2">
+                    <div class="hotelName">
+                        <span>путешествия, которые приведут вас в мир высот, глубин и скорости</span>
+                        <div class="hotelLine flex">
+                            <p>узнать подробнее </p>
+                            <img src="./img/линия (2).png" alt="foto">  
+                        </div>
+                    </div>
+                </div>
+                <div class="news3">
+                    <div class="hotelName">
+                        <span>Как сделать путешествие незабываемым для всех</span>
+                        <div class="hotelLine flex">
+                            <p>узнать подробнее </p>
+                            <img src="./img/линия (2).png" alt="foto">  
+                        </div>
+                    </div>
+                </div>
+                <div class="news4">
+                    <div class="hotelName">
+                        <span>богатство культурных и исторических сокровищ разных стран</span>
+                        <div class="hotelLine flex">
+                            <p>узнать подробнее </p>
+                            <img src="./img/линия (2).png" alt="foto">  
+                        </div>
+                    </div>
+                </div>
+                <div class="news5">
+                    <div class="hotelName">
+                        <span>Отдых, близкий к природе и экологии</span>
+                        <div class="hotelLine flex">
+                            <p>узнать подробнее </p>
+                            <img src="./img/линия (2).png" alt="foto">  
+                        </div>
+                    </div>
+                </div>
+                <div class="news6">
+                    <div class="hotelName">
+                        <span>ТОП-10 уникальных и завораживающих мест в ОАЭ</span>
+                        <div class="hotelLine flex">
+                            <p>узнать подробнее </p>
+                            <img src="./img/линия (2).png" alt="foto">  
+                        </div>
+                    </div>
+                </div>
+                <div class="news7">
+                    <div class="hotelName">
+                        <span>отдых с детьми:о чем нужно помнить в путешествии</span>
+                        <div class="hotelLine flex">
+                            <p>узнать подробнее </p>
+                            <img src="./img/линия (2).png" alt="foto">  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="newsMobile hotelMobile">
+                <div class="hotelMobile-container">
+                    <div class="">
+                        <a class="newsBg14 hotelCard flex bgManuel" href="#">
+                            <div class="hotelName">
+                                <span>богатство культурных и исторических сокровищ разных стран</span>
+                                <div class="hotelLine flex ">
+                                    <p>узнать подробнее </p>
+                                    <img src="./img/линия (2).png" alt="foto">  
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="">
+                        <a class="newsBg16 hotelCard flex bgOsward" href="#">
+                            <div class="hotelName">
+                                <span>ТОП-10 уникальных и завораживающих мест в ОАЭ</span>
+                                <div class="hotelLine flex">
+                                    <p>узнать подробнее </p>
+                                    <img src="./img/линия (2).png" alt="foto">  
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="">
+                        <a class="newsBg12  hotelCard flex bgEdvin" href="#">
+                            <div class="hotelName">
+                                <span>путешествия, которые приведут вас в мир высот, глубин и скорости</span>
+                                <div class="hotelLine flex">
+                                    <p>узнать подробнее </p>
+                                    <img src="./img/линия (2).png" alt="foto">  
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <button class=" hotelBtn nav_btn">Больше отелей</button>
+            </div>
+        </section>
+
+        <section id="about_us" class="aboutUs">
+            <div class="hotelText">
+                <h2 class="millanovaText">We</h2>
+                <h2 class="allTitle">о нас</h2>
+                <span class="allSpan">Вдохновляем мир на путешествия</span>
+            </div>
+            <div class="aboutInfo ">
+                <div class="we flex">
+                    <div class="aboutText flex">
+                        <p> <span>МЫ</span>— команда профессионалов, влюбленных в искусство путешествий. Наша история началась с мечты о том, чтобы сделать каждое путешествие незабываемым, каждое приключение уникальным. </p>
+                        <p> Наша миссия — сделать путешествия доступными и незабываемыми. Мы предлагаем вам не просто туры, а волшебные истории, которые будут жить в вашем сердце навсегда. Независимо от того, ищете ли вы релакс на пляже, культурные изыски или экстремальные приключения, мы создадим для вас оптимальное путешествие, подстроенное под ваши уникальные желания.</p>
+                    </div>
+                    <img class="weImg" src="./img/icons8-team-CrW-TbykPBQ-unsplash 1 (1).png" alt="foto">
+                    <img class="weImgDnone" src="./img/icons8-team-CrW-TbykPBQ-unsplash 1.png" alt="">
+                </div>
+                <div class="wetext flex">
+                    <img src="./img/Ikos-Dassia_Woman-walking-by-the-pool-01-_2880x1920-1-scaled 1.png" alt="foto">
+                    <p>Мы гордимся нашей командой опытных специалистов, каждый из которых разделяет страсть к туризму и стремление сделать ваше путешествие незабываемым. Мы внимательно следим за последними тенденциями в индустрии, чтобы предложить вам только лучшие и самые актуальные варианты.  </p>
+                    <p>Присоединяйтесь к нам в этом захватывающем путешествии! Мы готовы подарить вам моменты радости, вдохновения и удивления в каждом уголке нашего удивительного мира.</p>
+                </div>
+            </div>
+            <div id="contact" class="aboutContact flex">
+                <div class="network">
+                    <h4 class="aboutTitle">СВЯЗАТЬСЯ С НАМИ</h4>
+                    <div class="contactNet flex">
+                        <div class="contactNet-cont flex">
+                            <img src="./img/facebook (1).png" alt="foto">
+                            <img src="./img/instagram (1).png" alt="foto">
+                            <img src="./img/telegram (1).png" alt="foto">
+                        </div>
+                        <div class="contactNet-cont flex">
+                            <img src="./img/whatsapp (1).png" alt="foto">
+                            <img src="./img/ok (1).png" alt="foto">
+                            <img src="./img/vk (1).png" alt="foto">
+                        </div>
+                    </div>
+                </div>
+                <span></span>
+                <div class="contact">
+                    <h4 class="aboutTitle">КОНТАКТЫ</h4>
+                    <a href="tel:+84956262696">+ 8 (495) 626-26-96</a>
+                    <br>
+                    <a href="tel:+89258262696">+ 8 (925) 826-26-96</a>
+                    <a href="#">anextourchertanovo@gmail.com</a>
+                </div>
+                <span></span>
+                <div class="address">
+                    <h4 class="aboutTitle">АДРЕС</h4>
+                    <p>Москва, Россошанский проезд,<br> дом 3, (1‑й этаж)</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="getTravel managerContainer ">
+            <section class="manager">
+                <div class="managerCard flex">
+                    <h3>МЫ ПОМОЖЕМ СОЗДАТЬ ВАШЕ ПУТЕШЕСТВИЕ</h3>
+                    <p>Оставьте заявку на подбор идеального путешествия
+                    </p>
+                    <div class="managerInP">
+                        <input type="text" placeholder="Имя">
+                        <input type="number" placeholder="Телефон">
+                    </div>
+                    <div class="managerBtn choice_btn"> 
+                        <button class="allBtn">отправить</button>
+                        <img src="./img/south_east_24dp_FFF_FILL0_wght400_GRAD0_opsz24.svg" alt="foto">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+
+
+    <footer>
+        <section class="footerCont">
+            <div class="footerEmail flex">
+                <a href="#"><img src="./img/footerlogo.png" alt="foto"></a>
+                <span class="hrDnone"></span> 
+                <div class="emailCont flex">
+                    <p>Узнавайте о горящих <br> турах первыми</p>
+                    <div class="emailCont-inp">
+                        <img class="footEmaimImg" src="./img/mail_24dp_FFF_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="">
+                        <input type="email" placeholder="Введите почту">
+                        <img class="footEmailArrow" src="./img/south_east_24dp_FFF_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footerNav flex">
+                <ul class="flex">
+                    <li><a href="#">Подбор тура</a></li>
+                    <li><a href="#">Горящие туры</a></li>
+                    <li><a href="#">Страны и отели</a></li>
+                    <li><a href="#">Priority</a></li>
+                </ul>
+                <ul class="flex">
+                    <li><a href="#">оплата</a></li>
+                    <li><a href="#review">отзывы</a></li>
+                    <li><a href="#about_us">О нас</a></li>
+                    <li><a href="#contact">контакты</a></li>
+                </ul>
+            </div>
+            <div class="footerNetworks ">
+                <a href="#"><img src="./img/facebook.png" alt="Network"></a>
+                <a href="#"><img src="./img/instagram.png" alt="Network"></a>
+                <a href="#"><img src="./img/telegram.png" alt="Network"></a>
+                <a href="#"><img src="./img/whatsapp.png" alt="Network"></a>
+                <a href="#"><img src="./img/ok.png" alt="Network"></a>
+                <a href="#"><img src="./img/vk.png" alt="Network"></a>
+            </div>
+            <div class="footerText">
+                <p>2023 © Anex Tour - Туристическая компания</p>
+            </div>
+        </section>
+    </footer>
+
+
+
+
+
+
+    <script src="./js/script.js"></script>
+    <script src="./splide-4.1.3/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function() {
+          var splide = new Splide( '#splideOne'
+          , {
+            // type: "loop",
+            arrows: false,
+            // perMove: 1,
+            focus  : 0,
+            omitEnd: true,
+            breakpoints: {
+                1920:{
+                    perPage: 2,
+                }
+            }
+          }
+         );
+          splide.mount();
+        } );
+      </script>
+      
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 2,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          loop: true,
+        });
+      </script>
+
+
+ <script>
+    document.addEventListener( 'DOMContentLoaded', function() {
+      var splide = new Splide( '#splideThreee'
+      , {
+        arrows: false,
+        perPage:4,
+        type:"loop",
+        perMove: 1,
+        focus  : 0,
+        omitEnd: true,
+        breakpoints: {
+            1100:{
+                perPage:2.5,
+            },
+            500:{
+                perPage:1.5,
+            }
+        }
+      }
+     );
+      splide.mount();
+    } );
+  </script>
+</body>
+</html>
