@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
-    font-family: "Roboto", sans-serif;
+    font-family:Arial, "Roboto", sans-serif;
     font-weight: 300;
 }
 ul lI {
@@ -936,7 +936,7 @@ line-height: 116%;
     line-height: 117%;
     }
     .choice h1{
-    font-size: calc(40px + (92 - 40) * ((100vw - 360px) / (1024 - 360)));
+    font-size: calc(30px + (92 - 30) * ((100vw - 320px) / (1024 - 320)));
     }
     .allTitle{
         font-size: calc(28px + (44 - 28) * ((100vw - 360px) / (1024 - 360)));
