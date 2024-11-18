@@ -106,7 +106,7 @@ button{
 
 
 .choice_cont{
-    background-image: url("/img/wallpapers\ 2.png");
+    background-image: url(/img/wallpapers\2.png);
     background-repeat: no-repeat;
     background-position: center;
 
