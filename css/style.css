@@ -291,37 +291,37 @@ text-transform: uppercase;
 }
 .bgItalia{
     width: 256px !important;
-    background-image:url(/img/dana-andreea-gheorghe-tRAi7NuU4b0-unsplash\ 1.png);
+    background-image:url(../img/dana-andreea-gheorghe-tRAi7NuU4b0-unsplash\ 1.png);
     background-repeat:no-repeat;
     border-radius: 30px;
 }
 .bgBecir{
     width: 256px !important;
-    background-image:url(/img/bechir-kaddech-VHUuWxbjyRI-unsplash\ 1.png);
+    background-image:url(../img/bechir-kaddech-VHUuWxbjyRI-unsplash\ 1.png);
     background-repeat:no-repeat;
     border-radius: 30px;
 }
 .bgFranc{
     width: 256px !important;
-    background-image:url(/img/francesco-bianco-61hZLxwCjnI-unsplash\ 1.png);
+    background-image:url(../img/francesco-bianco-61hZLxwCjnI-unsplash\ 1.png);
     background-repeat:no-repeat;
     border-radius: 30px;
 }
 .bgDarcey{
     width: 256px !important;
-    background-image:url(/img/darcey-beau-wD1gm2Vwc5I-unsplash\ 1.png);
+    background-image:url(../img/darcey-beau-wD1gm2Vwc5I-unsplash\ 1.png);
     background-repeat:no-repeat;
     border-radius: 30px;
 }
 .bgDaniel{
     width: 256px !important;
-    background-image:url(/img/daniel-basso-KkvuOf2iKpE-unsplash\ 1.png);
+    background-image:url(../img/daniel-basso-KkvuOf2iKpE-unsplash\ 1.png);
     background-repeat:no-repeat;
     border-radius: 30px;
 }
 .bgIII{
     width: 256px !important;
-    background-image:url(/img/iiijpg.jpg);
+    background-image:url(../img/iiijpg.jpg);
     background-repeat:no-repeat;
     border-radius: 30px;
 }
@@ -360,19 +360,19 @@ text-transform: uppercase;
     margin-bottom: calc(-98px + (-138 - -98) * ((100vw - 360px) / (1920 - 360)));
 }
 .bgOsward{
-    background-image: url(/img/oswald-elsaboath-ym_EI-DTS1g-unsplash\ 1.png);
+    background-image: url(../img/oswald-elsaboath-ym_EI-DTS1g-unsplash\ 1.png);
     background-repeat: no-repeat;
     background-position:center;
     border-radius:30px;
 }
 .bgEdvin{
-    background-image: url(/img/edvin-johansson-rlwE8f8anOc-unsplash\ 1.png);
+    background-image: url(../img/edvin-johansson-rlwE8f8anOc-unsplash\ 1.png);
     background-repeat: no-repeat;
     background-position:center;
     border-radius:30px;
 }
 .bgManuel{
-    background-image: url(/img/manuel-moreno-DGa0LQ0yDPc-unsplash\ 1.png);
+    background-image: url(../img/manuel-moreno-DGa0LQ0yDPc-unsplash\ 1.png);
     background-repeat: no-repeat;
     background-position:center;
     border-radius:30px;
@@ -528,7 +528,7 @@ line-height: 137%;
 
 
 .managerContainer{
-    background-image:url(/img/sahara.png);
+    background-image:url(../img/sahara.png);
     background-repeat:no-repeat;
     background-position:center;
     height: calc(469px + (605 - 469) * ((100vw - 1024px) / (1920 - 1024)));
@@ -659,7 +659,7 @@ footer{
 /* Cекция путешествие */
 
 .getTravel{
-    background-image:url(/img/willian-justen-de-vasconcellos-2Ka0oKSMxVE-unsplash\ 1.png);
+    background-image:url(../img/willian-justen-de-vasconcellos-2Ka0oKSMxVE-unsplash\ 1.png);
     align-content:center;
     height: 454px;
     margin-bottom: -30px;
@@ -783,7 +783,7 @@ margin-bottom: calc(20px + (27 - 20) * ((100vw - 360px) / (1920 - 360)));
     
 }
 .news1{
-    background-image:url(/img/12.png);
+    background-image:url(../img/12.png);
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
@@ -796,7 +796,7 @@ margin-bottom: calc(20px + (27 - 20) * ((100vw - 360px) / (1920 - 360)));
     
 }
 .news2{
-    background-image: url(/img/12\ \(2\).png);
+    background-image: url(../img/12\ \(2\).png);
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
@@ -807,7 +807,7 @@ margin-bottom: calc(20px + (27 - 20) * ((100vw - 360px) / (1920 - 360)));
     align-items:end;
 }
 .news3{
-    background-image: url(/img/13.png);
+    background-image: url(../img/13.png);
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
@@ -826,7 +826,7 @@ font-weight: 500;
 line-height: 116%;
 }
 .news4{
-    background-image: url(/img/14.png);
+    background-image: url(../img/14.png);
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
@@ -838,7 +838,7 @@ line-height: 116%;
     grid-row: 2 / 3;
 }
 .news5{
-    background-image: url(/img/15.png);
+    background-image: url(../img/15.png);
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
@@ -850,7 +850,7 @@ line-height: 116%;
     grid-row: 1 / 2;
 }
 .news6{
-    background-image: url(/img/16.png);
+    background-image: url(../img/16.png);
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
@@ -863,7 +863,7 @@ line-height: 116%;
     grid-column: 3 / 4;
 }
 .news7{
-    background-image: url(/img/17.png);
+    background-image: url(../img/17.png);
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
@@ -996,17 +996,17 @@ line-height: 116%;
         gap:   32px;
     }
     .newsBg14{
-        background-image:url(/img/14.png);
+        background-image:url(../img/14.png);
         background-size:cover;
         justify-content: end;
     }
     .newsBg16{
-        background-image:url(/img/16.png);
+        background-image:url(../img/16.png);
         background-size:cover;
         justify-content: end;
     }
     .newsBg12{
-        background-image:url(/img/12.png);
+        background-image:url(../img/12.png);
         background-size:cover;
         justify-content: end;
     }
