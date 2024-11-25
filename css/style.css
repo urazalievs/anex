@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
-    font-family:Arial, "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
 }
 ul lI {
@@ -63,6 +63,7 @@ button{
 }
 .navIcon{
     gap: 25px;
+    align-items:center;
 }
 .nav_btn{
     font-size: 14px;
@@ -85,23 +86,108 @@ button{
     width: 1px;
     background-color: #E3E3E3;
 }
-.menu{
-    display: block;
+
+
+/* Базовые стили для бургер-меню */
+.menu {
     position: relative;
-    background-color:#fff;
-    border:none;
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    justify-content: center;
+    justify-content: space-between;
+    gap:8px;
+    cursor: pointer;
+    border:none;
+    background-color:#fff;
 }
-.menu_span{
-    display: block;
+
+.menu_span {
     width: 41px;
-    height: 2px;
-    background-color:black;
-    margin: 0 auto;
+    height: 1px; /* Толщина полосок */
+    background-color: #000; /* Цвет полосок */
+    border-radius: 2px; /* Скругление углов полосок */
+    border:1px solid black;
+    transition: all 0.6s ease; /* Плавное изменение */    
 }
+
+/* Стили для скрытого меню */
+.menu-content {
+    display: none; /* Изначально скрыто */
+    position: absolute;
+    top: calc(68px + (84 - 68) * ((100vw - 320px) / (1920 - 320)));
+    right: 0;
+    width: calc(320px + (360 - 320) * ((100vw - 320px) / (1920 - 320)));
+    height: 640px;
+    background-color: #fff; /* Полупрозрачный фон */
+    color: black;
+    padding: 20px;
+    font-size: 24px;
+    z-index: 999; /* Чтобы меню было поверх всего */
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 28px;
+}
+.menu-content .menuBtn{
+    justify-content: space-around;
+    padding-top: 28px;
+    border-top: 1px solid #D4D4D4;
+    margin-top: 32px;
+}
+.menuBtn a img{
+    width: 26px;
+}
+.open{
+    padding: 7px 0px;
+    border: 1px solid black;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.menuCard p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 118%;
+    margin-bottom: 20px;
+}
+.menuCard a{
+    font-size: 14px;
+    line-height: 190%;
+}
+.menuCountry{
+    display: flex;
+}
+.menuCountryOne{
+    
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    width: 50%;
+}
+
+/* Стили для открытия меню */
+.menu.open .menu_span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg); /* Первая полоска превращается в верхнюю часть X */
+    width: 20px;
+}
+
+.menu.open .menu_span:nth-child(2) {
+    opacity: 0; /* Средняя полоска исчезает */
+}
+
+.menu.open .menu_span:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg); /* Третья полоска становится нижней частью X */
+    width: 20px;
+}
+
+/* Когда меню открыто, показываем содержимое */
+.menu.open + .menu-content {
+    display: flex;
+}
+
+
+
+
+
+
 
 
 
@@ -169,6 +255,7 @@ button{
     border-right: 1px solid #D4D4D4;
     height: 36px;
     width: 128px;
+    background-color:#fff;
 }
 .lineInp{
     width: 38px;
@@ -565,7 +652,7 @@ line-height: 137%;
 .managerInP input{
     outline: none;
     border:none;
-    border-bottom:1px solid #D4D4D4;
+    border-bottom:1px solid #848484;
     padding-bottom: 5px;
 }
 
@@ -682,8 +769,9 @@ footer{
 .we p span{
     font-size: 80px;
     font-family: "Cormorant Garamond", serif;
-    font-weight: 600;
-
+    font-weight: 600;   
+    float: left;
+    margin: 24px 11px 21px 0px;
 }
 .weImg {
     width:  calc(352px + (544 - 352) * ((100vw - 1024px) / (1920 - 1024)));
@@ -741,9 +829,8 @@ margin-bottom: calc(20px + (27 - 20) * ((100vw - 360px) / (1920 - 360)));
 .aboutContact span{
     width: 1px;
     height: 62px;
-    border-color: #D4D4D4;
+    background-color:#D4D4D4;
     color: black;
-    border: 1px solid #D4D4D4;
 }
 .contact h4{
     margin-bottom: 20px;
@@ -752,13 +839,16 @@ margin-bottom: calc(20px + (27 - 20) * ((100vw - 360px) / (1920 - 360)));
     display: block;
     margin-top: 6px;
     text-decoration: underline;
+    text-transform: uppercase;
 }
 .contact :nth-child(2){
     display: block;
     margin-bottom: 8px;
 }
-.address h4{
-    margin-bottom: 20px;
+.address p{
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 160%;
 }
 .news{
     padding-top: 134px;
